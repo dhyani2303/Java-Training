@@ -1,0 +1,9 @@
+
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$cb415eb5-b457-476b-86da-8f13f84f0590
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ûà‹Òûÿÿÿÿ8ŠÍ§Şì1
+{
+java:S1854"?Remove this useless assignment to local variable "inetAddress".(È•êîJ$95d9283d-98b0-4e34-b182-05a6a6b20772
+k	java:S106"+Replace this use of System.out by a logger.(÷š—¢ıÿÿÿÿJ$3df9e22e-0fe0-4f2f-a0ed-1e48a4be6b9a
+k	java:S106"+Replace this use of System.out by a logger.(º‡ı“ùÿÿÿÿJ$3066a025-ba69-41a9-adb1-b38ae67d71cd
+f	java:S106"+Replace this use of System.out by a logger.(¦Ù²J$72f130d0-de81-4ee4-8099-0085f80d2b76
+k	java:S106"+Replace this use of System.out by a logger.(÷š—¢ıÿÿÿÿJ$75ee303b-8380-414b-97ff-b2c84170e3d2

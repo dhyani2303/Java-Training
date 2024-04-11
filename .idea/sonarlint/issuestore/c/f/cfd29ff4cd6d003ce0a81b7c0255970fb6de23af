@@ -1,0 +1,14 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ûà‹Òûÿÿÿÿ8µ†°Þì1
+‹
+java:S2095$"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(ã…Ý…úÿÿÿÿJ$82d42e25-1b0f-4a20-9673-2478e68cf4b4
+w	java:S125"<This block of commented-out lines of code should be removed.(­¥û´J$66bcd9a4-e00a-429f-92c4-ea0abd963272
+e
+java:S1481'")Remove this unused "stop" local variable.(º™J$087b1753-d780-4ef1-ba39-3d54dd481de2
+f	java:S106-"+Replace this use of System.out by a logger.(«§æŒJ$83004d74-e5b4-4264-ab5c-4b2852f48bf7
+|	java:S125+"<This block of commented-out lines of code should be removed.(™¦­ÔøÿÿÿÿJ$844e0a7a-13be-4886-b43b-c0e9c22eeab4
+k	java:S106<"+Replace this use of System.out by a logger.(¾’¦ËùÿÿÿÿJ$af90412d-f3e0-4bda-80d8-3a641383d1e6
+|	java:S125C"<This block of commented-out lines of code should be removed.(éØ»ÚûÿÿÿÿJ$e492a756-b594-4e77-8215-b82ce08e2e67
+f	java:S106I"+Replace this use of System.out by a logger.(ÄÉ®²J$61401bfc-dcb1-4c4e-b830-caf529e24217
+r
+java:S1128"1Remove this unused import 'java.net.InetAddress'.(ë³ƒÒÿÿÿÿÿJ$4c814735-9397-4d36-8d3f-b7d87460facb
