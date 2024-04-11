@@ -13,6 +13,13 @@
             <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%file:%line] %msg%n</pattern>
         </encoder>
     </appender>
+
+    <appender name="EVENTBUS_LOGS" class="ch.qos.logback.core.FileAppender">
+        <file>eventbus.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%thread] [%-5level] [%file:%line] %msg%n</pattern>
+        </encoder>
+    </appender>
     <!-- Root Logger -->
     <root level="info">
         <appender-ref ref="STDOUT" />
@@ -20,6 +27,10 @@
 
     <logger name="org.example.Verticle.Main" level="TRACE" additivity="false">
         <appender-ref ref="VERTICLE_LOGS" />
+    </logger>
+
+    <logger name="org.example.EventBus.Main" level="TRACE" additivity="false">
+        <appender-ref ref="EVENTBUS_LOGS" />
     </logger>
 
 </configuration>

@@ -1,0 +1,8 @@
+
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ρώƒ“8Ρ§ιμ1J$cfca6c71-4e2b-4157-b6b4-bd0357c443e2
+‚
+java:S1161":Add the "@Override" annotation above this method signature(–ς—Ξωÿÿÿÿ8Ω§ιμ1J$d3845645-0c38-4768-a672-bd34b7b82b69
+„
+java:S1128"<Remove this unused import 'io.vertx.core.DeploymentOptions'.(¥¬θόÿÿÿÿ8ά§ιμ1J$00af3159-6451-4c59-aacf-b543c052745d
+ƒ
+java:S1128";Remove this unused import 'io.vertx.core.eventbus.Message'.(ΪΖνωÿÿÿÿ8ά§ιμ1J$5c4b918d-b3af-4e83-8206-c0c6fbd03a17

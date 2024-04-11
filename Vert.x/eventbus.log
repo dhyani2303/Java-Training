@@ -1,0 +1,12 @@
+[2024-04-11 18:30:40.754] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:22] Message published Hello everyone
+[2024-04-11 18:30:40.754] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:22] Message published Hello everyone
+[2024-04-11 18:30:40.754] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
+[2024-04-11 18:30:40.772] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
+[2024-04-11 18:30:45.736] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:22] Message published Hello everyone
+[2024-04-11 18:30:45.737] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
+[2024-04-11 18:30:45.739] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:22] Message published Hello everyone
+[2024-04-11 18:30:45.740] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
+[2024-04-11 18:30:50.736] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:22] Message published Hello everyone
+[2024-04-11 18:30:50.737] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
+[2024-04-11 18:30:50.737] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:22] Message published Hello everyone
+[2024-04-11 18:30:50.738] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
