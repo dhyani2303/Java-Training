@@ -1,0 +1,14 @@
+
+w
+java:S3740+"/Provide the parametrized type for this generic.(°ÊÙ‹øÿÿÿÿ8¢Ìâì1J$306d52e2-0772-4798-bb33-9aa7e904fb25
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á†»Û8¥Ìâì1J$cedee5b8-3843-4582-adbd-06504ddb0956
+‚
+java:S1161":Add the "@Override" annotation above this method signature(–ò—Îùÿÿÿÿ8·Ìâì1J$7c9d3d36-25cb-4c2d-a7ad-2b2fc31b2733
+z
+java:S1874"7Remove this use of "executeBlocking"; it is deprecated.(Ôşü8¹Ìâì1J$c19affbe-27aa-4eb3-9b33-aee61ae101e1
+d
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ8ºÌâì1J$c2822652-62d6-4301-a5f8-f89bb7477ac4
+¦
+java:S2142 "^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ŠÏ¢²üÿÿÿÿ8¼Ìâì1J$ffcb1e11-2bca-4663-b705-08a43e245354
+]
+java:S34577"Not enough arguments.(Ş´³ªıÿÿÿÿ8ÀÌâì1J$f7f4d0b8-0ee7-4e85-8bee-038ffbe8aa31
