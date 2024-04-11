@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AccessModifier" isTestSource="false" packagePrefix="pack2" />
+      <sourceFolder url="file://$MODULE_DIR$/CommandLineArgument" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DateAndTime" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Enum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExceptionHandling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FunctionalInterface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/InnerClassses" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interfaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LambdaExpression" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OOPS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Operators" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WrapperClasses" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="366f47a8-c952-4e95-89c2-7a808e6b99de" />
+  </component>
+</module>
