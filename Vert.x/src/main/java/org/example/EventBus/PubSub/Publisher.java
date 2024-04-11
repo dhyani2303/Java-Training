@@ -16,7 +16,7 @@ public class Publisher extends AbstractVerticle
 
         vertx.setPeriodic(5000,id->{
 
-          
+
             String message = "Hello everyone";
 
             producer.write(message);
