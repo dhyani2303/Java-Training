@@ -11,7 +11,10 @@ target/
 *.iws
 *.iml
 *.ipr
-.
+.idea/sonarlint
+.gitignore
+eventbus.log
+verticle.log
 
 ### Eclipse ###
 .apt_generated
