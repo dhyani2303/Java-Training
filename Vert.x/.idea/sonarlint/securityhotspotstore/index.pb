@@ -34,3 +34,5 @@ h
 8src/main/java/org/example/EventBus/PubSub/Publisher.java,0/1/012e857ca9e958b2313786bc3d76182b2be2160c
 i
 9src/main/java/org/example/EventBus/PubSub/Subscriber.java,3/d/3d0c3b78c8b07116ea33de10cef1d87cbf02a59c
+^
+.src/main/java/org/example/EventBus/Person.java,5/b/5b23b034800dd819c7de49da91f1b61d90daa8cb

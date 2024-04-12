@@ -1,78 +1,36 @@
-[2024-04-11 18:30:40.754] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:22] Message published Hello everyone
-[2024-04-11 18:30:40.754] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:22] Message published Hello everyone
-[2024-04-11 18:30:40.754] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
-[2024-04-11 18:30:40.772] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
-[2024-04-11 18:30:45.736] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:22] Message published Hello everyone
-[2024-04-11 18:30:45.737] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
-[2024-04-11 18:30:45.739] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:22] Message published Hello everyone
-[2024-04-11 18:30:45.740] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
-[2024-04-11 18:30:50.736] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:22] Message published Hello everyone
-[2024-04-11 18:30:50.737] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
-[2024-04-11 18:30:50.737] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:22] Message published Hello everyone
-[2024-04-11 18:30:50.738] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message Hello everyone
-[2024-04-12 10:53:48.328] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:53:48.329] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:48.511] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:48.329] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:53:48.329] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:48.515] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:53.292] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:53.293] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:53.292] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:53:53.292] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:53:53.293] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:53.293] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:58.291] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:53:58.291] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:53:58.291] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:58.293] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:58.294] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:53:58.294] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:20] Received Message {"message":"Hello everyone"}
-[2024-04-12 10:59:01.503] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:23] Received Message Hello everyone
-[2024-04-12 10:59:01.506] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:23] Received Message Hello everyone
-[2024-04-12 10:59:01.500] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:23] Received Message Hello everyone
-[2024-04-12 10:59:01.507] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:23] Received Message Hello everyone
-[2024-04-12 10:59:01.496] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:59:01.498] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:59:06.487] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:23] Received Message Hello everyone
-[2024-04-12 10:59:06.487] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:23] Received Message Hello everyone
-[2024-04-12 10:59:06.487] [vert.x-eventloop-thread-1] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:59:06.491] [vert.x-eventloop-thread-3] [INFO ] [Subscriber.java:23] Received Message Hello everyone
-[2024-04-12 10:59:06.491] [vert.x-eventloop-thread-2] [INFO ] [Publisher.java:27] Message published {"message":"Hello everyone"}
-[2024-04-12 10:59:06.491] [vert.x-eventloop-thread-4] [INFO ] [Subscriber.java:23] Received Message Hello everyone
-[2024-04-12 11:02:55.604] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:23] Received message: Hello from sender 
-[2024-04-12 11:02:55.612] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:28] Sending message {"message":"Hello from sender"}
-[2024-04-12 11:03:05.583] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:28] Sending message {"message":"Hello from sender"}
-[2024-04-12 11:03:05.584] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:23] Received message: Hello from sender 
-[2024-04-12 11:07:44.678] [vert.x-eventloop-thread-2] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:07:44.732] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello {\"name\":\"Dhyani\"}!"}
-[2024-04-12 11:07:46.648] [vert.x-eventloop-thread-1] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:07:46.651] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello {\"name\":\"Dhyani\"}!"}
-[2024-04-12 11:07:48.648] [vert.x-eventloop-thread-2] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:07:48.651] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello {\"name\":\"Dhyani\"}!"}
-[2024-04-12 11:07:50.648] [vert.x-eventloop-thread-1] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:07:50.651] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello {\"name\":\"Dhyani\"}!"}
-[2024-04-12 11:07:52.647] [vert.x-eventloop-thread-2] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:07:52.648] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello {\"name\":\"Dhyani\"}!"}
-[2024-04-12 11:07:54.647] [vert.x-eventloop-thread-1] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:07:54.648] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello {\"name\":\"Dhyani\"}!"}
-[2024-04-12 11:08:44.395] [vert.x-eventloop-thread-1] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:08:44.418] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello Dhyani!"}
-[2024-04-12 11:08:46.368] [vert.x-eventloop-thread-2] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:08:46.371] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello Dhyani!"}
-[2024-04-12 11:08:48.367] [vert.x-eventloop-thread-1] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:08:48.368] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello Dhyani!"}
-[2024-04-12 11:08:50.367] [vert.x-eventloop-thread-2] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:08:50.368] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response {"message":"Hello Dhyani!"}
-[2024-04-12 11:10:42.439] [vert.x-eventloop-thread-1] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:10:42.487] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response Hello Dhyani!
-[2024-04-12 11:10:44.427] [vert.x-eventloop-thread-2] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:10:44.428] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response Hello Dhyani!
-[2024-04-12 11:10:46.427] [vert.x-eventloop-thread-1] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:10:46.428] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response Hello Dhyani!
-[2024-04-12 11:10:48.428] [vert.x-eventloop-thread-2] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:10:48.431] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response Hello Dhyani!
-[2024-04-12 11:10:50.428] [vert.x-eventloop-thread-1] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:10:50.430] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response Hello Dhyani!
-[2024-04-12 11:10:52.428] [vert.x-eventloop-thread-2] [INFO ] [Request.java:24] Received request: Dhyani
-[2024-04-12 11:10:52.431] [vert.x-eventloop-thread-3] [INFO ] [Response.java:30] Received response Hello Dhyani!
+[2024-04-12 12:32:37.236] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:33] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:32:37.290] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: org.example.EventBus.Person@4ec80d8e 
+[2024-04-12 12:32:47.215] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: org.example.EventBus.Person@52fdd90f 
+[2024-04-12 12:32:47.215] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:33] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:32:57.216] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:33] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:32:57.216] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: org.example.EventBus.Person@74b2658 
+[2024-04-12 12:33:07.219] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:33] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:33:07.220] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: org.example.EventBus.Person@56c24788 
+[2024-04-12 12:33:25.993] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:33] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:33:26.028] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:33:35.971] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:33] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:33:35.972] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:40:28.413] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:40:28.452] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:40:38.372] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:40:38.372] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:40:48.372] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:40:48.373] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:40:58.371] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:40:58.372] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:41:08.371] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:41:08.371] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:41:18.372] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:41:18.373] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:41:28.372] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:41:28.373] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:41:38.375] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:41:38.375] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:41:48.372] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:41:48.371] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:41:58.373] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:41:58.373] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:42:08.374] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}
+[2024-04-12 12:42:08.374] [vert.x-eventloop-thread-2] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:42:18.372] [vert.x-eventloop-thread-3] [INFO ] [Reciever.java:25] Received message: 21 Dhyani 
+[2024-04-12 12:42:18.371] [vert.x-eventloop-thread-1] [INFO ] [Sender.java:38] Sending message {"name":"Dhyani","age":21}

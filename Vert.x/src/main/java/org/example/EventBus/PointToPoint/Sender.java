@@ -6,19 +6,27 @@ import io.vertx.core.DeploymentOptions;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.Message;
 import io.vertx.core.eventbus.MessageProducer;
+import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import org.example.EventBus.Person;
 
 
 public class Sender extends AbstractVerticle
 {
     public void start()
     {
+
+
         EventBus eventBus = vertx.eventBus();
 
+        Person person = new Person();
 
-        JsonObject jsonObject = new JsonObject();
+        person.setName("Dhyani");
 
-        jsonObject.put("message","Hello from sender");
+        person.setAge(21);
+
+
+        JsonObject jsonObject = JsonObject.mapFrom(person);
 
         vertx.setPeriodic(10000,id->{
 

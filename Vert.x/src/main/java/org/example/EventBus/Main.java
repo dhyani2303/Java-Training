@@ -17,47 +17,47 @@ public class Main
 
 
 //
-//        vertx.deployVerticle("org.example.EventBus.PointToPoint.Sender", res -> {
-//            if(res.succeeded())
-//            {
-//                System.out.println("Sender deployed successfully");
-//            }
-//            else
-//            {
-//                System.out.println(res.cause());
-//            }
-//        });
-//        vertx.deployVerticle("org.example.EventBus.PointToPoint.Reciever", deployementOptions, res -> {
-//            if(res.succeeded())
-//            {
-//                System.out.println("Receiver deployed successfully");
-//            }
-//            else
-//            {
-//                System.out.println(res.cause());
-//            }
-//        });
+        vertx.deployVerticle("org.example.EventBus.PointToPoint.Sender", res -> {
+            if(res.succeeded())
+            {
+                System.out.println("Sender deployed successfully");
+            }
+            else
+            {
+                System.out.println(res.cause());
+            }
+        });
+        vertx.deployVerticle("org.example.EventBus.PointToPoint.Reciever", deployementOptions, res -> {
+            if(res.succeeded())
+            {
+                System.out.println("Receiver deployed successfully");
+            }
+            else
+            {
+                System.out.println(res.cause());
+            }
+        });
 //
-        vertx.deployVerticle("org.example.EventBus.ReqRes.Request", deployementOptions, res -> {
-            if(res.succeeded())
-            {
-                System.out.println("RequestVerticle deployed successfully");
-            }
-            else
-            {
-                System.out.println(res.cause());
-            }
-        });
-        vertx.deployVerticle("org.example.EventBus.ReqRes.Response", res -> {
-            if(res.succeeded())
-            {
-                System.out.println("ResponseVerticle deployed successfully");
-            }
-            else
-            {
-                System.out.println(res.cause());
-            }
-        });
+//        vertx.deployVerticle("org.example.EventBus.ReqRes.Request", deployementOptions, res -> {
+//            if(res.succeeded())
+//            {
+//                System.out.println("RequestVerticle deployed successfully");
+//            }
+//            else
+//            {
+//                System.out.println(res.cause());
+//            }
+//        });
+//        vertx.deployVerticle("org.example.EventBus.ReqRes.Response", res -> {
+//            if(res.succeeded())
+//            {
+//                System.out.println("ResponseVerticle deployed successfully");
+//            }
+//            else
+//            {
+//                System.out.println(res.cause());
+//            }
+//        });
 
 //        vertx.deployVerticle("org.example.EventBus.PubSub.Publisher",deployementOptions,res->
 //        {
