@@ -1,8 +1,0 @@
-
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á†»Û8äÑãäì1J$bc11d2db-fbe1-4106-8a38-25ad3b968baa
-o
-java:S1602",Remove useless curly braces around statement(®ÆÈæ8îÑãäì1J$ed7e0e98-f119-4181-8052-9adb3e23acf4
-
-java:S1874"7Remove this use of "executeBlocking"; it is deprecated.(õ•Ğıúÿÿÿÿ8ïÑãäì1J$f8668db8-d7fc-4e06-be48-faedc5349add
-¦
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ÇâŞáøÿÿÿÿ8ğÑãäì1J$402499fb-5ebc-4b24-8c8f-7f90499ad372

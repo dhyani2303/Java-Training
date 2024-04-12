@@ -3,6 +3,8 @@ package org.example.EventBus.ReqRes;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.Message;
+import io.vertx.core.json.Json;
+import io.vertx.core.json.JsonObject;
 
 import static org.example.EventBus.Main.LOGGER;
 
@@ -17,13 +19,13 @@ public class Request extends AbstractVerticle
 
     }
 
-    private  void handleRequest(Message<String> request)
+    private  void handleRequest(Message<JsonObject> request)
     {
-        LOGGER.info("Received request: {}",request.body());
+        LOGGER.info("Received request: {}",request.body().getString("name"));
 
-        String response = "Hello, " + request.body() + "!";
+        JsonObject response = new JsonObject();
 
-
+        response.put("message","Hello "+ request.body().getString("name") + "!");
 
         request.reply(response);
     }

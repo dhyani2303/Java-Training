@@ -6,7 +6,7 @@ import io.vertx.core.DeploymentOptions;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.Message;
 import io.vertx.core.eventbus.MessageProducer;
-
+import io.vertx.core.json.JsonObject;
 
 
 public class Sender extends AbstractVerticle
@@ -15,15 +15,19 @@ public class Sender extends AbstractVerticle
     {
         EventBus eventBus = vertx.eventBus();
 
-        MessageProducer<String> producer = eventBus.sender("address");
 
+        JsonObject jsonObject = new JsonObject();
+
+        jsonObject.put("message","Hello from sender");
 
         vertx.setPeriodic(10000,id->{
-            String message = "Hello from sender";
 
-            LOGGER.info("Sending message {}",message);
+            eventBus.send("address",jsonObject);
 
-            producer.write(message);
+
+            LOGGER.info("Sending message {}",jsonObject);
+
+
         });
 
     }

@@ -3,6 +3,7 @@ package org.example.EventBus.PubSub;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.MessageProducer;
+import io.vertx.core.json.JsonObject;
 
 import static org.example.EventBus.Main.LOGGER;
 
@@ -12,16 +13,18 @@ public class Publisher extends AbstractVerticle
     {
         EventBus eventBus = vertx.eventBus();
 
-        MessageProducer<String> producer = eventBus.publisher("title");
+        JsonObject jsonObject = new JsonObject();
+
+        jsonObject.put("message","Hello everyone");
+
+
+
 
         vertx.setPeriodic(5000,id->{
 
+            eventBus.publish("title",jsonObject);
 
-            String message = "Hello everyone";
-
-            producer.write(message);
-
-            LOGGER.info("Message published {}",message);
+            LOGGER.info("Message published {}",jsonObject);
         });
 
 
