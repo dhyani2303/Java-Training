@@ -5,7 +5,7 @@ import io.vertx.core.Vertx;
 import io.vertx.core.http.HttpServer;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Router;
-import netscape.javascript.JSObject;
+
 
 public class SimpleResponses
 {
