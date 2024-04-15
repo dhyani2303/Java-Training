@@ -1,6 +1,6 @@
-package org.example.Verticle;
+package org.VertxCore.Verticle;
 
-import static org.example.Verticle.Main.LOGGER;
+import static org.VertxCore.Verticle.Main.LOGGER;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.AsyncResult;

@@ -1,6 +1,5 @@
-package org.example.UDP;
+package org.VertxCore.UDP;
 
-import io.vertx.core.Future;
 import io.vertx.core.Vertx;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.datagram.DatagramSocket;

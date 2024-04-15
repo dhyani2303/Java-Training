@@ -1,4 +1,4 @@
-package org.example.HTTP;
+package org.VertxCore.HTTP;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.http.HttpServer;

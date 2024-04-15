@@ -1,13 +1,12 @@
-package org.example.EventBus.PointToPoint;
+package org.VertxCore.EventBus.PointToPoint;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.Message;
 import io.vertx.core.json.JsonObject;
-import netscape.javascript.JSObject;
-import org.example.EventBus.Person;
+import org.VertxCore.EventBus.Person;
 
-import static org.example.EventBus.Main.LOGGER;
+import static org.VertxCore.EventBus.Main.LOGGER;
 
 public class Reciever extends AbstractVerticle
 {

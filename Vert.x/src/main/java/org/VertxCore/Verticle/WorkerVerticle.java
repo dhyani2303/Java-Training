@@ -1,8 +1,8 @@
-package org.example.Verticle;
+package org.VertxCore.Verticle;
 
 import io.vertx.core.AbstractVerticle;
 
-import static org.example.Verticle.Main.LOGGER;
+import static org.VertxCore.Verticle.Main.LOGGER;
 
 public class WorkerVerticle extends AbstractVerticle
 {

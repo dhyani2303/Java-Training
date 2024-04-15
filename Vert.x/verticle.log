@@ -4,7 +4,7 @@
 [2024-04-11 14:00:28.297] [ERROR] [ExecuteBlockingVerticle.java:55] Error occured {}
 java.lang.InterruptedException: sleep interrupted
 	at java.base/java.lang.Thread.sleep(Native Method)
-	at org.example.Verticle.ExecuteBlockingVerticle.blockingCode(ExecuteBlockingVerticle.java:26)
+	at org.VertxCore.Verticle.ExecuteBlockingVerticle.blockingCode(ExecuteBlockingVerticle.java:26)
 	at io.vertx.core.impl.ContextImpl.lambda$executeBlocking$1(ContextImpl.java:191)
 	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:279)
 	at io.vertx.core.impl.ContextImpl.lambda$internalExecuteBlocking$2(ContextImpl.java:210)
@@ -516,3 +516,9 @@ java.lang.InterruptedException: sleep interrupted
 [2024-04-11 18:03:07.474] [INFO ] [Request.java:25] Sending response Hello, Dhyani!
 [2024-04-11 18:03:07.475] [INFO ] [Response.java:21] Received response Hello, Dhyani!
 [2024-04-11 18:03:07.475] [INFO ] [Response.java:21] Received response Hello, Dhyani!
+[2024-04-15 17:09:24.018] [INFO ] [Context.java:23] Blocking the task
+[2024-04-15 17:09:24.023] [INFO ] [Context.java:16] Task executed on context thread
+[2024-04-15 17:09:28.023] [INFO ] [Context.java:32] Blocking Completed
+[2024-04-15 17:13:35.746] [INFO ] [Context.java:16] Task executed on context thread
+[2024-04-15 17:13:35.760] [INFO ] [Context.java:23] Blocking the task
+[2024-04-15 17:13:39.761] [INFO ] [Context.java:32] Blocking Completed

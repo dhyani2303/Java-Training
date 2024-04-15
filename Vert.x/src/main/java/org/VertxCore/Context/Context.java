@@ -1,8 +1,8 @@
-package org.example.Context;
+package org.VertxCore.Context;
 
 import io.vertx.core.Vertx;
 
-import static org.example.Verticle.Main.LOGGER;
+import static org.VertxCore.Verticle.Main.LOGGER;
 
 public class Context
 {

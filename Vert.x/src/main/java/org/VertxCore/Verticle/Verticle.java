@@ -1,4 +1,4 @@
-package org.example.Verticle;
+package org.VertxCore.Verticle;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Context;

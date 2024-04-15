@@ -1,4 +1,4 @@
-package org.example.FileSystem;
+package org.VertxCore.FileSystem;
 
 import io.vertx.core.Future;
 import io.vertx.core.Vertx;

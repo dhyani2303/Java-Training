@@ -1,4 +1,4 @@
-package org.example.EventBus;
+package org.VertxCore.EventBus;
 
 public class Person
 {

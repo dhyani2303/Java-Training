@@ -1,13 +1,12 @@
-package org.example.EventBus.ReqRes;
+package org.VertxCore.EventBus.ReqRes;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.eventbus.DeliveryOptions;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.Message;
-import io.vertx.core.json.Json;
 import io.vertx.core.json.JsonObject;
 
-import static org.example.EventBus.Main.LOGGER;
+import static org.VertxCore.EventBus.Main.LOGGER;
 
 public class Response extends AbstractVerticle
 {

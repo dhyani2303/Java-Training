@@ -1,11 +1,11 @@
-package org.example.EventBus.PubSub;
+package org.VertxCore.EventBus.PubSub;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.Message;
 import io.vertx.core.json.JsonObject;
 
-import static org.example.EventBus.Main.LOGGER;
+import static org.VertxCore.EventBus.Main.LOGGER;
 
 public class Subscriber extends AbstractVerticle
 {

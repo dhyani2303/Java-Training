@@ -1,14 +1,10 @@
-package org.example.EventBus.PointToPoint;
+package org.VertxCore.EventBus.PointToPoint;
 
-import static org.example.EventBus.Main.LOGGER;
+import static org.VertxCore.EventBus.Main.LOGGER;
 import io.vertx.core.AbstractVerticle;
-import io.vertx.core.DeploymentOptions;
 import io.vertx.core.eventbus.EventBus;
-import io.vertx.core.eventbus.Message;
-import io.vertx.core.eventbus.MessageProducer;
-import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
-import org.example.EventBus.Person;
+import org.VertxCore.EventBus.Person;
 
 
 public class Sender extends AbstractVerticle

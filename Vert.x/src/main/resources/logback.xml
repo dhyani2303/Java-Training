@@ -25,11 +25,11 @@
         <appender-ref ref="STDOUT" />
     </root>
 
-    <logger name="org.example.Verticle.Main" level="TRACE" additivity="false">
+    <logger name="org.VertxCore.Verticle.Main" level="TRACE" additivity="false">
         <appender-ref ref="VERTICLE_LOGS" />
     </logger>
 
-    <logger name="org.example.EventBus.Main" level="TRACE" additivity="false">
+    <logger name="org.VertxCore.EventBus.Main" level="TRACE" additivity="false">
         <appender-ref ref="EVENTBUS_LOGS" />
     </logger>
 

@@ -1,8 +1,7 @@
-package org.example.UDP;
+package org.VertxCore.UDP;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.datagram.DatagramSocket;
-import io.vertx.core.datagram.DatagramSocketOptions;
 
 public class Receiver
 {

@@ -1,4 +1,4 @@
-package org.example.TCP;
+package org.VertxCore.TCP;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.net.NetServer;
