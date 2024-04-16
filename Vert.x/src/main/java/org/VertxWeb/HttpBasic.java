@@ -14,7 +14,7 @@ public class HttpBasic
 
         Router router = Router.router(vertx);
 
-        router.route("/").handler(ctx->{
+        router.route("/about/").handler(ctx->{
 
             HttpServerResponse response = ctx.response();
 
