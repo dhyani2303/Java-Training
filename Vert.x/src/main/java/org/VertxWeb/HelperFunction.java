@@ -28,10 +28,12 @@ public class HelperFunction
                 if(result.succeeded())
                 {
                     result.result().read(Buffer.buffer(), 0, 0, 100, ar -> {
+
                         if(ar.succeeded())
                         {
                             Buffer buffer = ar.result();
 
+                            //to download the file
                             //   ctx.attachment("example.txt").end(buffer);
 
                             ctx.end(buffer);
