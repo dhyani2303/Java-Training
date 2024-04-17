@@ -66,3 +66,5 @@ _
 /src/main/java/org/VertxWeb/BlockingHandler.java,b/1/b1333cbf199b45e6615d3483de49955d25dec61a
 [
 +src/main/java/org/VertxWeb/HttpMethods.java,1/b/1bcfc73b8487e7848c9198597b9bb11f184e914d
+^
+.src/main/java/org/VertxWeb/HelperFunction.java,f/e/fe083e391b70c6df8b0e3707cdbc0c00df14a849
