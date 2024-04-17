@@ -74,3 +74,5 @@ Z
 *src/main/java/org/VertxWeb/ReReouting.java,4/0/4078ca0d9cd56259c89e049668283da672b091ce
 Z
 *src/main/java/org/VertxWeb/SubRouters.java,1/b/1b78ebd5cf77e85690f29a9fd1b791481a6f856d
+]
+-src/main/java/org/VertxWeb/ErrorHandling.java,9/1/91563687f8f0acd570e9767a8ee98396810c25f8
