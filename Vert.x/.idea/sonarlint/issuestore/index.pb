@@ -68,3 +68,7 @@ _
 +src/main/java/org/VertxWeb/HttpMethods.java,1/b/1bcfc73b8487e7848c9198597b9bb11f184e914d
 ^
 .src/main/java/org/VertxWeb/HelperFunction.java,f/e/fe083e391b70c6df8b0e3707cdbc0c00df14a849
+Z
+*src/main/java/org/VertxWeb/Rereouting.java,e/9/e945a99aa88eab8a04b6af98a360d6ab753aa966
+Z
+*src/main/java/org/VertxWeb/ReReouting.java,4/0/4078ca0d9cd56259c89e049668283da672b091ce

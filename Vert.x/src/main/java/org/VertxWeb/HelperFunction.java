@@ -53,9 +53,11 @@ public class HelperFunction
 
             String query = ctx.pathParam("query");
 
-            if(query != null && (!query.isEmpty()))
+            if(query != null && !query.isEmpty())
 
                 ctx.redirect("https://www.youtube.com/results?search_query=" + query);
+
+            
 
         });
 

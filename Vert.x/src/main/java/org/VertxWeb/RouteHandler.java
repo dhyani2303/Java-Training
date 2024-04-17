@@ -18,7 +18,7 @@ public class RouteHandler
 
         Route route = router.route("/");
 
-        route.handler(ctx->{
+        route.putMetadata("metadata-key",123).handler(ctx->{
 
             HttpServerResponse response = ctx.response();
 
