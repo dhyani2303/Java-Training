@@ -80,3 +80,5 @@ Z
 ,src/main/java/org/VertxWeb/BodyHandling.java,f/3/f3a4997c092fc9dc5a80314e95dbed1e83c00327
 W
 'src/main/java/org/VertxWeb/Cookies.java,e/9/e93c5c53568e71ac2139b5ccdc3ec1205e80a042
+X
+(src/main/java/org/VertxWeb/Sessions.java,c/a/cada29e0db06674c45b7fdef7fb94f316d081a60
