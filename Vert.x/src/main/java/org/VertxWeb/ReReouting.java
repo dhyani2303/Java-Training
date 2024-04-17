@@ -14,31 +14,31 @@ public class ReReouting
 
         Router router = Router.router(vertx);
 
-//        router.route("/").handler(ctx->{
-//           ctx.response().putHeader("Content-Type","text/html").end("<h1>Welcome to home page</h1>");
-//
-//        });
-//
-//        router.route("/about").handler(ctx->{
-//            ctx.response().putHeader("Content-Type","text/html").end("<h1>About our company</h1>");
-//
-//        });
-//        router.route("/contact").handler(ctx->{
-//            ctx.response().putHeader("Content-Type","text/html").end("<h1>Contact us</h1>");
-//
-//        });
-//        router.route("/home").handler(ctx->{
-//          ctx.reroute("/");
-//
-//        });
-//        router.route("/info").handler(ctx->{
-//            ctx.reroute("/about");
-//
-//        });
-//        router.route("/feedback").handler(ctx->{
-//            ctx.reroute("/contact");
-//
-//        });
+        router.route("/").handler(ctx->{
+           ctx.response().putHeader("Content-Type","text/html").end("<h1>Welcome to home page</h1>");
+
+        });
+
+        router.route("/about").handler(ctx->{
+            ctx.response().putHeader("Content-Type","text/html").end("<h1>About our company</h1>");
+
+        });
+        router.route("/contact").handler(ctx->{
+            ctx.response().putHeader("Content-Type","text/html").end("<h1>Contact us</h1>");
+
+        });
+        router.route("/home").handler(ctx->{
+          ctx.reroute("/");
+
+        });
+        router.route("/info").handler(ctx->{
+            ctx.reroute("/about");
+
+        });
+        router.route("/feedback").handler(ctx->{
+            ctx.reroute("/contact");
+
+        });
 
 
 
