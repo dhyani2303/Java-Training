@@ -69,8 +69,6 @@ _
 ^
 .src/main/java/org/VertxWeb/HelperFunction.java,f/e/fe083e391b70c6df8b0e3707cdbc0c00df14a849
 Z
-*src/main/java/org/VertxWeb/Rereouting.java,e/9/e945a99aa88eab8a04b6af98a360d6ab753aa966
-Z
 *src/main/java/org/VertxWeb/ReReouting.java,4/0/4078ca0d9cd56259c89e049668283da672b091ce
 Z
 *src/main/java/org/VertxWeb/SubRouters.java,1/b/1b78ebd5cf77e85690f29a9fd1b791481a6f856d
@@ -80,5 +78,9 @@ Z
 ,src/main/java/org/VertxWeb/BodyHandling.java,f/3/f3a4997c092fc9dc5a80314e95dbed1e83c00327
 W
 'src/main/java/org/VertxWeb/Cookies.java,e/9/e93c5c53568e71ac2139b5ccdc3ec1205e80a042
-X
-(src/main/java/org/VertxWeb/Sessions.java,c/a/cada29e0db06674c45b7fdef7fb94f316d081a60
+A
+public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
+a
+1file-uploads/2d3894aa-2a14-45e5-963b-2e23effca99b,e/3/e3a25dd9c9071d9317b01b6c47012782c89be21f
+_
+/src/main/java/org/VertxWeb/StaticResources.java,5/3/53181ef001e3de4a786c9030c3a5f4edb46857c3
