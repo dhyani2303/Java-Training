@@ -10,7 +10,7 @@
 <h1> SockJs Event Bus Example</h1>
 
 <script>
-    const eventbus = new EventBus('http://10.20.40.128:8000/eventbus/',{"vertxbus_ping_interval": 300000});
+    const eventbus = new EventBus('http://10.20.40.128:8000/eventbus/');
 
     eventbus.onopen=function(){
     console.log('Connected to event bus');

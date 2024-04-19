@@ -92,3 +92,5 @@ _
 /src/main/java/org/VertxWeb/sockJS/EventBus.java,7/d/7dd295dcaa404813c597db9854f0da3420c5682d
 e
 5src/main/java/org/VertxWeb/sockJS/EventBusBridge.java,8/b/8ba571aa5bbe5c1d20e91d315196e3d34e4e2b4c
+W
+'src/main/java/org/VertxWeb/Example.java,6/4/64fd2161fa1fc35ac0cb8ed3b05859faa63820f4

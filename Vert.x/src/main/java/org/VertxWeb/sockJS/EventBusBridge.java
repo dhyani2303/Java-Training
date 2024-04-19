@@ -1,6 +1,7 @@
 package org.VertxWeb.sockJS;
 
 import io.vertx.core.Vertx;
+import io.vertx.core.json.JsonObject;
 import io.vertx.ext.bridge.BridgeEventType;
 import io.vertx.ext.bridge.PermittedOptions;
 import io.vertx.ext.web.Router;
@@ -15,7 +16,11 @@ public class EventBusBridge
 
         var router = Router.router(vertx);
 
-        var options = new SockJSBridgeOptions().addInboundPermitted(new PermittedOptions().setAddress("test")).addOutboundPermitted(new PermittedOptions().setAddress("add")).setPingTimeout(5000);
+        var options = new SockJSBridgeOptions()
+                .addInboundPermitted(new PermittedOptions().setAddress("test"))
+                .addOutboundPermitted(new PermittedOptions().setAddress("add"))
+                .addOutboundPermitted(new PermittedOptions().setMatch(new JsonObject().put("hello","frnd")))
+                .setPingTimeout(5000);
 
         var sockjs = SockJSHandler.create(vertx);
 
@@ -44,10 +49,13 @@ public class EventBusBridge
             System.out.println("Message received "+ message.body());
         });
 
-//        vertx.eventBus().publish("test","Hello from publisher server");
+
+
 
         vertx.setPeriodic(5000,handler-> {
-                    vertx.eventBus().send("add", "Hello from publisher server");
+           // vertx.eventBus().publish("test","Hello from publisher server");
+
+                 vertx.eventBus().send("add", "Hello from server");
                 });
         vertx.createHttpServer().requestHandler(router).listen(8000);
     }
