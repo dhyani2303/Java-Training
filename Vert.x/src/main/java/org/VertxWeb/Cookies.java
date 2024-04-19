@@ -19,7 +19,8 @@ public class Cookies
 
         router.get("/set-cookie").handler(context -> {
 
-            context.response().addCookie(Cookie.cookie("my-cookie","cookie-name")).end("Cookies set");
+            context.response().setChunked(true);
+            context.response().setStatusCode(200).addCookie(Cookie.cookie("my-cookie","cookie-name")).end("Cookies set");
 
         });
 

@@ -80,7 +80,15 @@ W
 'src/main/java/org/VertxWeb/Cookies.java,e/9/e93c5c53568e71ac2139b5ccdc3ec1205e80a042
 A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
-a
-1file-uploads/2d3894aa-2a14-45e5-963b-2e23effca99b,e/3/e3a25dd9c9071d9317b01b6c47012782c89be21f
 _
 /src/main/java/org/VertxWeb/StaticResources.java,5/3/53181ef001e3de4a786c9030c3a5f4edb46857c3
+]
+-src/main/java/org/VertxWeb/sockJS/client.html,3/9/39d4e2f043b77bf7005714e0486708a5448ccaf7
+]
+-src/main/java/org/VertxWeb/sockJS/SockJs.java,e/5/e53abad44684b628c30e6deb4fdfb82478f3d477
+i
+9src/main/java/org/VertxWeb/sockJS/clientWithEventBus.html,7/2/726fe855bc0c2d70a9ca9ceb4d97f0c36c4bd920
+_
+/src/main/java/org/VertxWeb/sockJS/EventBus.java,7/d/7dd295dcaa404813c597db9854f0da3420c5682d
+e
+5src/main/java/org/VertxWeb/sockJS/EventBusBridge.java,8/b/8ba571aa5bbe5c1d20e91d315196e3d34e4e2b4c
